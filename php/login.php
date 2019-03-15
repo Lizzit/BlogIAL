@@ -10,7 +10,7 @@
   if(mysql_num_rows($query)&gt;0){        //se c'è una persona con quel nome nel db allora loggati
     $row = mysql_fetch_assoc($query); // metto i risultati dentro una variabile di nome $row
     $_SESSION["logged"] =true;  // Nella variabile SESSION associo TRUE al valore logged
-    header("location:index1.php"); // e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
+    header("location:index1.html"); // e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
   }else{
   echo "non ti sei registrato con successo"; // altrimenti esce scritta a video questa stringa di errore
   }
