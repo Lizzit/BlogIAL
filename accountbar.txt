@@ -1,0 +1,41 @@
+<div class="ab-sub-wrapper">		
+						<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+							<li id="wp-admin-bar-user-info" class="user-info user-info-item">		
+								<div class="ab-item ab-empty-item" tabindex="-1">
+									<img alt='' src='https://0.gravatar.com/avatar/f333e1e715e98aff41aab003c0769ab7?s=128&#038;d=mm&#038;r=G' class='avatar avatar-128' height='128' width='128' />
+									<span class="display-name">elizzit</span>
+									<a class="username" href="http://gravatar.com/elizzit">@elizzit</a>
+									<form action="https://ialbloghome.wordpress.com/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fialblog.home.blog%2F&amp;_wpnonce=05997f37a8" method="post">
+										<button class="ab-sign-out" type="submit">Esci</button>
+									</form>
+								</div>		
+							</li>
+							<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		
+								<div class="ab-item ab-empty-item" >Profilo</div>		
+							</li>
+							<li id="wp-admin-bar-my-profile" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/me">Il mio profilo</a>		
+							</li>
+							<li id="wp-admin-bar-account-settings" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/me/account">Impostazioni account</a>		
+							</li>
+							<li id="wp-admin-bar-billing" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/me/purchases">Gestisci gli Acquisti</a>		
+							</li>
+							<li id="wp-admin-bar-security" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/me/security">Sicurezza</a>	
+							</li>
+							<li id="wp-admin-bar-notifications" class="mb-icon mb-trackable">
+								<a class="ab-item"  href="https://wordpress.com/me/notifications">Notifiche</a>		
+							</li>
+							<li id="wp-admin-bar-special-header" class="ab-submenu-header">		
+								<div class="ab-item ab-empty-item" >Speciale</div>
+							</li>
+							<li id="wp-admin-bar-get-apps" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/me/get-apps">Ottieni le app</a>		
+							</li>
+							<li id="wp-admin-bar-help" class="mb-icon">
+								<a class="ab-item"  href="https://wordpress.com/help">Aiuto</a>		
+							</li>		
+						</ul>
+					</div>
