@@ -8,22 +8,25 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2>Registrazione</h2>   
-  <form name="form_registration" method="post" action="registration.php">
-    <br/>
-    <p>Username: <input type="text" name="username_reg"></p>
-    <br/>
-    <p>Password: <input type="password" name="password_reg"></p>
-    <br/>
-    <p>Email: <input type="text" name="email_reg" ></p>
-    <br/>
-    <button>Registrati</button>
-  </form>
-    <h2>Log in</h2>
-  <form name="form_login" method="post" action="login.php">
-    <p>Username</p><input type="text" name="username" ></p>
-    <p>Password <input name="password"></p>
-    <button>Accedi</button>
-  </form>
+  <div class="container">
+    <h2 class="header">Registrazione</h2>   
+    <form name="form_registration" method="post" action="registration.php">
+      <br/>
+      <p class="center">Username: <input type="text" name="username_reg"></p>
+      <br/>
+      <p class="center">Password: <input type="password" name="password_reg"></p>
+      <br/>
+      <p class="center">Email: <input type="text" name="email_reg" ></p>
+      <br/>
+      <button class="center">Registrati</button>
+    </form>
+      <h2 class="header">Log in</h2>
+    <form name="form_login" method="post" action="login.php">
+      <p class="center">Username</p><input type="text" name="username" ></p>
+      <p class="center">Password <input name="password"></p>
+      <button class="center">Accedi</button>
+    </form>
+    <div class="background"><img src="img/IAL_Logo.jpg"></div>
+  </div>
 <body>
 </html>
