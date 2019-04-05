@@ -11,7 +11,7 @@
 <body background="img/IAL_Logo.jpg">
   <div aligin="center"class="login">
     <h2 class="header">Registrazione</h2>   
-    <form name="form_registration" method="post" action="registration.php">
+    <form id="registrazione" name="form_registration" method="post" action="registration.php">
       <br/>
       <p class="center">Username: <input type="text" name="username_reg"></p>
       <br/>
@@ -20,13 +20,26 @@
       <p class="center">Email: <input type="text" name="email_reg" ></p>
       <br/>
       <button class="center">Registrati</button>
+      <div id="testo"><a href="#" onclick="visualizza('accesso'); returne false">Accedi</a></div>
     </form>
       <h2 class="header">Log in</h2>
-    <form name="form_login" method="post" action="login.php">
+    <form id="accesso" name="form_login" method="post" action="login.php">
       <p class="center">Username</p><input type="text" name="username" ></p>
       <p class="center">Password <input type="password" name="password"></p>
       <button class="center">Accedi</button>
+      <div id="testo"><a href="#" onclick="visualizza('registrazione'); returne false">Registrati</a></div>
     </form>
+    <script type="text/javascript" language="javascript>
+      function visualizza(id){
+        if (document.getElementById){
+          if(document.getElementById(id).style.display == 'none'){
+            document.getElementById(id).style.display = 'block';
+          }else{
+            document.getElementById(id).style.display = 'none';
+          }
+        }
+      }
+    </script>
   </div>
 <body>
 </html>
