@@ -34,14 +34,14 @@
       <p class="center">Email: <input type="text" name="email_reg" ></p>
       <br/>
       <button class="center">Registrati</button>
-      <div id="testo"><a href="#" onclick="visualizza('accesso'); returne false">Accedi</a></div>
+      <div id="testo"><a href="#" onclick="visualizza('accesso'); return true">Accedi</a></div>
     </form>
       <h2 class="header">Log in</h2>
     <form id="accesso" name="form_login" method="post" action="login.php">
       <p class="center">Username</p><input type="text" name="username" ></p>
       <p class="center">Password <input type="password" name="password"></p>
       <button class="center">Accedi</button>
-      <div id="testo"><a href="#" onclick="visualizza('registrazione'); returne false">Registrati</a></div>
+      <div id="testo"><a href="#" onclick="visualizza('registrazione'); return false">Registrati</a></div>
     </form>
     
   </div>
